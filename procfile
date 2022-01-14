@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn websocket.wsgi --log-file -
+web: gunicorn websocket.wsgi.py --log-file -
